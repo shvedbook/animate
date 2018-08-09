@@ -1464,9 +1464,9 @@ p.nominalBounds = new cjs.Rectangle(4.6,-1.5,203.4,179.9);
 		createjs.Sound.stop("wow");
 		createjs.Sound.play("nature");
 	}
-	this.frame_228 = function() {
+	this.frame_321 = function() {
 		createjs.Sound.stop("nature");
-		createjs.Sound.play("heroic");
+		createjs.Sound.play("heroic");s
 	}
 	this.frame_647 = function() {
 		createjs.Sound.stop("heroic");
@@ -1487,7 +1487,7 @@ p.nominalBounds = new cjs.Rectangle(4.6,-1.5,203.4,179.9);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(23).call(this.frame_24).wait(4).call(this.frame_28).wait(163).call(this.frame_191).wait(37).call(this.frame_228).wait(419).call(this.frame_647).wait(63).call(this.frame_710).wait(58));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(23).call(this.frame_24).wait(4).call(this.frame_28).wait(163).call(this.frame_191).wait(130).call(this.frame_321).wait(326).call(this.frame_647).wait(63).call(this.frame_710).wait(58));
 
 	// Armature_15
 	this.ikNode_107 = new lib.Symbol34();
