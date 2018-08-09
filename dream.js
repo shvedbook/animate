@@ -1430,9 +1430,9 @@ p.nominalBounds = new cjs.Rectangle(4.6,-1.5,203.4,179.9);
 	this.frame_0 = function() {
 		var self = this;
 		self.stop();
-		createjs.Sound.registerSound("/sounds/wow.mp3","wow");
-		createjs.Sound.registerSound("/sounds/nature.mp3","nature");
-		createjs.Sound.registerSound("/sounds/heroic.mp3","heroic");
+		createjs.Sound.registerSound("/animate/sounds/wow.mp3","wow");
+		createjs.Sound.registerSound("/animate/sounds/nature.mp3","nature");
+		createjs.Sound.registerSound("/animate/sounds/heroic.mp3","heroic");
 		
 		
 		self.startBTN.addEventListener("click", clickPlayStart);
@@ -1447,9 +1447,9 @@ p.nominalBounds = new cjs.Rectangle(4.6,-1.5,203.4,179.9);
 		}
 	}
 	this.frame_1 = function() {
-		createjs.Sound.registerSound("/sounds/wow.mp3","wow");
-		createjs.Sound.registerSound("/sounds/nature.mp3","nature");
-		createjs.Sound.registerSound("/sounds/heroic.mp3","heroic");
+		createjs.Sound.registerSound("/animate/sounds/wow.mp3","wow");
+		createjs.Sound.registerSound("/animate/sounds/nature.mp3","nature");
+		createjs.Sound.registerSound("/animate/sounds/heroic.mp3","heroic");
 		createjs.Sound.stop("nature");
 		createjs.Sound.play("nature");
 	}
@@ -1458,7 +1458,7 @@ p.nominalBounds = new cjs.Rectangle(4.6,-1.5,203.4,179.9);
 		createjs.Sound.play("wow");
 	}
 	this.frame_28 = function() {
-		createjs.Sound.registerSound("/sounds/haertbeat.mp3","heartbeat");
+		createjs.Sound.registerSound("/animate/sounds/haertbeat.mp3","heartbeat");
 	}
 	this.frame_191 = function() {
 		createjs.Sound.stop("wow");
